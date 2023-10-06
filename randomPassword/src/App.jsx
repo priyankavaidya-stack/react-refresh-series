@@ -59,14 +59,14 @@ function App() {
               onClick={ copyPasswordToClipboard }
               className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0'>{text}</button>
         </div>
-        <div className='flex text-sm gap-x-2'>
-          <div className='flex items-center gap-x-1'>
+        <div className='flex text-sm gap-x-2 max-sm:flex-col'>
+          <div className='flex items-center gap-x-1 max-[250px]:flex-col'>
             <input 
               type="range"
               min={8}
               max={100}
               value={length}
-              className='cursor-pointer'
+              className='cursor-pointer max-sm:w-full'
               onChange={(e) => {
                 setLength(e.target.value)
                 setText("Copy");
