@@ -1,13 +1,8 @@
 import { useState } from "react"
-// import Card from "./Card";
 
 function App() {
   const [color, setColor] = useState("olive");
 
-  // function handleColor(){
-  //   let color = "#ffffff";
-  //   setColor(color)
-  // }
   return (
       <div className="w-full h-screen duration-200" style={ { backgroundColor: color}}>
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
