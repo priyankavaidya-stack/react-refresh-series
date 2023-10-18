@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+    max-height: 100vh !important;
+}
+
+.todoList{
+    background-image: url('https://images.unsplash.com/photo-1606978297876-ca1d2a75e631?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470https://images.unsplash.com/photo-1606978297876-ca1d2a75e631?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh; /* Adjust the height as needed */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
